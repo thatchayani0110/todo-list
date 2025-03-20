@@ -1,0 +1,73 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-image: url(data:image/jpeg;base64,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);
+    background-size: cover;
+    padding: 150px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgb(15, 15, 15);
+    width: 300px;
+    text-align: center;
+}
+
+.todo-input {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+button {
+    padding: 8px 12px;
+    border: none;
+    background:lightslategray;
+    color:black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background:white;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+li {
+    background: white;
+    padding: 10px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+
+li .delete-btn {
+    background: black;
+    color: red;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+h2{
+    color: white;
+
+}
